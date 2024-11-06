@@ -29,7 +29,7 @@ In this project i will create a site in such that it can be run both on mobile d
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 Hello Codegisoft Academy <a name="about-project"></a>
+# 📖 Hello Codegisoft Academy <a name="My-Portfolio"></a>
 
 This is the first technical Codegisoft Academy project it tests more on Git, GitHub, GitHub Workflow and Linters.
 
@@ -68,7 +68,7 @@ Clone this repository to your desired folder:
 
 sh
   cd my-folder
-  git clone https://github.com/ngalamac/Hello-Codegisoft Academy.git
+  git clone https://github.com/Osasblaisekhan Academy.git
 
 
 ### Install
