@@ -29,7 +29,7 @@
   }
 
   .hero {
-    background: url(/asset/images/header-illsutration-mobile.svg);
+    background: url(./asset/images/header-illsutration-mobile.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -81,8 +81,10 @@
     list-style-type: none;
   }
 
-  .social_icon ul li a img {
-    width: 23px;
+  .abt_card__icon img {
+    width: 120px;
+    height: auto;
+    margin-top: -30px;
   }
 
   .action {
@@ -104,14 +106,26 @@
     font-size: 40px;
     font-weight: 700;
     text-align: center;
+    margin: 0 10px;
   }
 
-  .lay_out hr {
-    width: 100%;
-    height: 4px;
-    border: none;
-    border-radius: 24px;
+  .hr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 15px;
+  }
+
+  .hr p {
+    padding: 1.4px 60px;
     background-color: #36b37e;
+  }
+
+  .my_container_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .landing_page {
@@ -142,24 +156,25 @@
     text-transform: capitalize;
     margin-top: 15px;
   }
-  .h3 span{
+
+  .h3 span {
     display: block;
     text-align: center;
   }
 
-  .buttons ul{
+  .buttons ul {
     display: flex;
     list-style: none;
     flex-direction: row;
     justify-content: space-between;
   }
 
-  .buttons ul li{
+  .buttons ul li {
     margin-top: 20px;
     padding: 10px 10px;
     border: none;
     border-radius: 4px;
-    background-color: #EBF0EE;
+    background-color: #ebf0ee;
   }
 
   .center {
@@ -185,17 +200,380 @@
     margin-top: 10px;
     justify-content: center;
     align-items: center;
+    background: url(./asset/images/illustration\ 2-about\ me\ mobile.svg) bottom left, url(./asset/images/illustration\ 1-\ about\ me-mobile.svg) top right;
+    background-repeat: no-repeat;
   }
 
-  .about_me h4{
+  .about_me h4 {
     padding-bottom: 10px;
     font-weight: 600;
     text-transform: capitalize;
     font-size: 40px;
-    color: #172B4D;
-
+    color: #172b4d;
   }
-  h4 .image{
+
+  .about_me p {
+    font-size: larger;
+    font-weight: 600;
+    color: #42526e;
+    text-align: center;
+    margin: 30px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-origin: padding-box;
+  }
+
+  .get_my {
+    margin-left: 0;
+    margin-top: 15px;
+    width: 153px;
+    height: 48px;
+    background-color: #36b37f;
+    border: none;
+    border-radius: 4px;
+    padding: 12px;
+    color: #fff;
+  }
+
+  .about_cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: 45px 0 10px 0;
+  }
+
+  .abt_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 327px;
+    height: 363px;
+    border-radius: 5px;
+    flex-direction: column;
+    background-color: #ebf0ee;
+    padding: 10px 0 25px 0;
+  }
+
+  .social_icon ul li a img {
+    width: 23px;
+  }
+
+  .abt_card_title h2 {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .abt_card_tech ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 0 10px;
+  }
+
+  .abt_card_tech ul li {
+    list-style: none;
+    font-size: 20px;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #36b37e;
+  }
+
+  .my_section_paragraph {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(./asset/images/illustration-contact-form.svg) bottom right;
+    background-repeat: no-repeat;
+  }
+
+  .interest {
+    height: 363px;
+    width: 327px;
+    line-height: 52px;
+    font-weight: 800;
+    font-size: 40px;
+    margin-top: 30px;
+    color: #172b4d;
+    text-align: center;
+  }
+
+  .input {
+    height: 380px;
+    width: 280px;
+  }
+
+  .input input {
+    width: 100%;
+    height: 60px;
+  }
+
+  .input textarea {
+    width: 100%;
+    height: 80px;
+  }
+
+  .get_in {
+    margin-left: 90px;
+    margin-top: 60px;
+    width: 100px;
+    height: 50px;
+    background-color: #36b37f;
+    border-radius: 6px;
+  }
+
+  .my_email {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .my_email a {
+    opacity: 1;
+    color: #42526e;
+    text-decoration: none;
+  }
+
+  .line {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20px;
+    margin: 10px 15px;
+  }
+
+  .line p {
+    padding: 1.5px 60px;
+    background-color: black;
+  }
+
+  .section_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  ::placeholder {
+    padding-left: 40px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .logo a {
+    font-size: 25px;
+    text-decoration: none;
+    color: #36b37e;
+  }
+
+  .desktop_menu {
+    display: none;
+  }
+
+  .mobile_menu {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    align-items: end;
+    margin: 10px 15px;
+  }
+
+  .mobile_menu p {
+    padding: 1.5px 10px;
+    background-color: black;
+  }
+
+  .hero {
+    background: url(./asset/images/header-illsutration-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 45px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    gap: 2px;
+  }
+
+  .first,
+  .second {
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+  }
+
+  .first {
+    margin: 25px 0 0 0;
+    padding: 10px 50px;
+  }
+
+  .second {
+    color: #36b37e;
+    margin-top: -40px;
+  }
+
+  .hero_paragraph {
+    font-size: 25px;
+    text-align: center;
+    margin: 10px 15px;
+  }
+
+  .social_icon ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 15px;
+    list-style-type: none;
+  }
+
+  .abt_card__icon img {
+    width: 120px;
+    height: auto;
+    margin-top: -30px;
+  }
+
+  .class_action {
+    margin-top: 60px;
+  }
+
+  .lay_out {
+    padding: 45px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .lay_out h2 {
+    line-height: 52px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 10px;
+  }
+
+  .hr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 15px;
+  }
+
+  .hr p {
+    padding: 1.4px 60px;
+    background-color: #36b37e;
+  }
+
+  .my_container_box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .landing_page {
+    width: 350px;
+    height: 474px;
+    background-color: #d0d9d4;
+    margin: 30px;
+    position: relative;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+  }
+
+  .sub_page {
+    width: 100%;
+    height: 235px;
+    position: absolute;
+    bottom: 0;
+    background-color: #fff;
+  }
+
+  .h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-weight: 600;
+    line-height: 32px;
+    text-transform: capitalize;
+    margin-top: 15px;
+  }
+
+  .h3 span {
+    display: block;
+    text-align: center;
+  }
+
+  .buttons ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .buttons ul li {
+    margin-top: 20px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ebf0ee;
+  }
+
+  .center {
+    margin-left: 120px;
+    margin-top: 20px;
+    width: 122px;
+    height: 48px;
+    outline: hidden;
+    border: none;
+    border-radius: 4px;
+    text-transform: capitalize;
+    background-color: #36b37e;
+    color: #fff;
+  }
+
+  .about_me {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    background: url(./asset/images/illustration\ 2-about\ me\ mobile.svg) bottom left, url(./asset/images/illustration\ 1-\ about\ me-mobile.svg) top right;
+    background-repeat: no-repeat;
+  }
+
+  .about_me h4 {
+    padding-bottom: 10px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 40px;
+    color: #172b4d;
+  }
+
+  h4 .image {
     justify-content: end;
     flex-direction: row;
     align-items: end;
@@ -221,15 +599,16 @@
     color: #fff;
   }
 
-  .about_cards{
-    display: flex;
+  .about_cards {
+    display: grid;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
-    margin: 45px 0 10px 0;
+    margin: 45px 0 -10px 0;
   }
-  .abt_card{
+
+  .abt_card {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -238,46 +617,52 @@
     height: 363px;
     border-radius: 5px;
     flex-direction: column;
-    background-color: #EBF0EE;
+    background-color: #ebf0ee;
     padding: 10px 0 25px 0;
   }
-  .abt_card__icon img{
-    width: 120px;
-    height: auto;
-    margin-top: -30px;
-  }
-  .abt_card_title h2{
+
+  .abt_card_title h2 {
     font-size: 25px;
     font-weight: bold;
-    ma
   }
-  .abt_card_tech ul{
+
+  .social_icon ul li a img {
+    width: 23px;
+  }
+
+  .abt_card_tech ul {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 5px;
     flex-wrap: wrap;
-    margin-top: 40px;
+    margin: 10px;
+    padding: 0 10px;
   }
-  .abt_card_tech ul li{
+
+  .abt_card_tech ul li {
     list-style: none;
     font-size: 20px;
-    background-color:#ffffff;
+    background-color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
-    color:#36B37E;
-    
+    color: #36b37e;
   }
+
+  .my_section_paragraph {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
   .interest {
-    height: 363px;
-    width: 327px;
     line-height: 52px;
     font-weight: 800;
     font-size: 40px;
     margin-top: 30px;
-    color: #172B4D;
+    color: #172b4d;
     text-align: center;
-
   }
 
   .input {
@@ -315,9 +700,10 @@
     margin-top: 20px;
   }
 
-  .my_email h3 {
+  .my_email a {
     opacity: 1;
     color: #42526e;
+    text-decoration: none;
   }
 
   .line {
@@ -333,8 +719,140 @@
     background-color: black;
   }
 
-  .hr {
+  .section_2 {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  ::placeholder {
+    padding-left: 40px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .logo a {
+    display: none;
+    font-size: 25px;
+    text-decoration: none;
+    color: #36b37e;
+  }
+
+  .desktop_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .desktop_menu ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+  }
+
+  .my_email a {
+    display: none;
+    opacity: 1;
+    color: #42526e;
+    text-decoration: none;
+  }
+
+  .mobile_menu {
+    display: none;
+    flex-direction: column;
+    gap: 3px;
+    align-items: end;
+    margin: 10px 15px;
+  }
+
+  .mobile_menu p {
+    padding: 1.5px 10px;
+    background-color: black;
+  }
+
+  .hero {
+    background: url(./asset/images/Header-llustration-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 45px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    gap: 2px;
+  }
+
+  .first,
+  .second {
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+  }
+
+  .first {
+    margin: 25px 0 0 0;
+    padding: 10px 50px;
+  }
+
+  .second {
+    color: #36b37e;
+    margin-top: -40px;
+  }
+
+  .hero_paragraph {
+    font-size: 25px;
+    text-align: center;
+    margin: 10px 15px;
+  }
+
+  .social_icon ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 15px;
+    list-style-type: none;
+  }
+
+  .abt_card__icon img {
+    width: 120px;
+    height: auto;
+    margin-top: -30px;
+  }
+
+  .action {
+    margin-top: 20px;
+  }
+
+  .lay_out {
+    padding: 45px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .lay_out h2 {
+    line-height: 52px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 10px;
+  }
+
+  .hr {
+    display: none;
     flex-direction: column;
     align-items: center;
     margin: 10px 15px;
@@ -345,13 +863,261 @@
     background-color: #36b37e;
   }
 
+  .my_container_box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .landing_page {
+    width: 350px;
+    height: 474px;
+    background-color: #d0d9d4;
+    margin: 30px;
+    position: relative;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+  }
+
+  .sub_page {
+    width: 100%;
+    height: 235px;
+    position: absolute;
+    bottom: 0;
+    background-color: #fff;
+  }
+
+  .h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-weight: 600;
+    line-height: 32px;
+    text-transform: capitalize;
+    margin-top: 15px;
+  }
+
+  .h3 span {
+    display: block;
+    text-align: center;
+  }
+
+  .buttons ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .buttons ul li {
+    margin-top: 20px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ebf0ee;
+  }
+
+  .center {
+    margin-left: 120px;
+    margin-top: 20px;
+    width: 122px;
+    height: 48px;
+    outline: hidden;
+    border: none;
+    border-radius: 4px;
+    text-transform: capitalize;
+    background-color: #36b37e;
+    color: #fff;
+  }
+
+  .about_me {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px 20px 0;
+    justify-content: center;
+    align-items: center;
+    background: url(./asset/images/illustration-about-me-2-desktop.svg) bottom left, url(./asset/images/illustration-about\ me-1-desktop.svg) top right;
+    background-repeat: no-repeat;
+  }
+
+  .about_me h4 {
+    padding-bottom: 10px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 40px;
+    color: #172b4d;
+  }
+
+  .about_me p {
+    font-size: larger;
+    font-weight: 600;
+    color: #42526e;
+    text-align: center;
+    margin: 0 380px;
+  }
+
+  .get_my {
+    margin-left: 0;
+    margin-top: 15px;
+    width: 153px;
+    height: 48px;
+    background-color: #36b37f;
+    border: none;
+    border-radius: 4px;
+    padding: 12px;
+    color: #fff;
+  }
+
+  .about_cards {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 45px 0 -10px 0;
+  }
+
+  .abt_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 327px;
+    height: 363px;
+    border-radius: 5px;
+    flex-direction: column;
+    background-color: #ebf0ee;
+    padding: 10px 0 25px 0;
+  }
+
+  .social_icon ul li a img {
+    width: 23px;
+  }
+
+  .abt_card_title h2 {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .abt_card_tech ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 0 10px;
+  }
+
+  .abt_card_tech ul li {
+    list-style: none;
+    font-size: 20px;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #36b37e;
+  }
+
+  .my_section_paragraph {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(./asset/images/contact\ form-illustratoin-3-desktop.svg) top right, url(./asset/images/illustration-1-contact-form-desktop.svg) bottom left 10px, url(./asset/images/illustration-2-contact-form-desktop@2x.png) bottom left 300px;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+  }
+
+  .interest {
+    line-height: 52px;
+    font-weight: 500;
+    font-size: 40px;
+    margin: 0 100px 0 90px;
+    padding: 100px;
+    color: #172b4d;
+    text-align: center;
+  }
+
+  .input {
+    height: 380px;
+    width: 280px;
+    margin-top: 50px;
+    margin-right: 215px;
+    opacity: 1;
+  }
+
+  .input input {
+    width: 100%;
+    height: 60px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+  }
+
+  .input textarea {
+    width: 100%;
+    height: 80px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+  }
+
+  .get_in {
+    margin-left: 90px;
+    margin-right: 80px;
+    margin-top: 60px;
+    width: 100px;
+    height: 50px;
+    background-color: #36b37f;
+    border: none;
+    border-radius: 6px;
+  }
+
+  .my_email {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .desktop_menu ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: 900;
+  }
+
+  .yooo {
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+  }
+
+  .line {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 20px;
+    margin: 10px 15px;
+  }
+
+  .line p {
+    padding: 1.5px 60px;
+    background-color: black;
+  }
+
   .section_2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  ::placeholder{
+
+  ::placeholder {
     padding-left: 40px;
+    padding-top: 15px;
   }
 }

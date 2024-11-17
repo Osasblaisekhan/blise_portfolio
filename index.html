@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio Website</title>
-    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="./index.css">
 </head>
 <body>
     <!--header sectio markup-->
@@ -20,39 +20,44 @@
                 <p></p>
             </div>
                 <div class="desktop_menu">
-                    <li><a href="#">portfolio</a></li>
-                    <li><a href="#">about</a></li>
-                    <li><a href="#">contact</a></li>
+                    <ul>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#about_section">about</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    </ul>
                 </div>
             </nav>
         </div>
     </header>
     <main>
-        <section class="hero">
+        <section class="hero" id="portfolio">
             <h1><span class="first">hey there. i'm blise. </span><br><span class="second">i'm a software devloper</span> </h1>
             <p class="hero_paragraph">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
             <div class="social_icon">
                  <ul>
-                <li><a href="#"><img src="/asset/images/twitter (1).svg" alt="twitter social platform"></a></li>
-                <li><a href="#"><img src="/asset/images/Linkedin icon.svg" alt="linkkedin icon"></a></li>
-                <li><a href="#"><img src="/asset/images/medium.svg" alt="medium platform"></a></li>
-                <li><a href="https://github.com/Osasblaisekhan"><img src="/asset/images/github.svg" alt="github"></a></li>
-                <li><a href="#"><img src="/asset/images/angellist.svg" alt="angellist platform"></a></li>
+                    <li><a href="https://x.com/i/premium_sign_up"><img src="./asset/images/twitter (1).svg" alt="twitter social platform"></a></li>
+                    <li><a href="www.linkedin.com/in/
+                        khan-blaise-13a0a4338
+                        "><img src="./asset/images/Linkedin icon.svg" alt="linkkedin icon"></a></li>
+                    <li><a href="#"><img src="./asset/images/medium.svg" alt="medium platform"></a></li>
+                    <li><a href="https://github.com/Osasblaisekhan"><img src="./asset/images/github.svg" alt="github"></a></li>
+                    <li><a href="#"><img src="./asset/images/angellist.svg" alt="angellist platform"></a></li>
                 </ul>
             </div>
             <div class="class_action">
-                <img src="/asset/images/Action.png" alt="action">
+                <img src="./asset/images/Action.png" alt="action">
             </div>
         </section>
 
             <!--my section-->
             <section class="section_2">
             <div class="lay_out">
-                <h2>My Recent <br>Works</h2>
+                <h2>My Recent Works</h2>
                 <div class="hr">
                     <p></p>
                 </div>
                 </div>
+                <div class="my_container_box">
             <div class="landing_page">
                 <div class="sub_page">
                     <div class="h3">
@@ -67,7 +72,7 @@
                         </ul>
                     </div>
                     <div class="center_button">
-                        <button type="button" class="center">see project</button>
+                        <button type="submit" class="center" required="required">see project</button>
                     </div>
                 </div>
             </div>
@@ -85,7 +90,7 @@
                         </ul>
                     </div>
                     <div class="center_button">
-                        <button type="button" class="center">see project</button>
+                        <button type="submit" class="center" required="required">see project</button>
                     </div>
                 </div>
             </div>
@@ -103,7 +108,7 @@
                         </ul>
                     </div>
                     <div class="center_button">
-                        <button type="button" class="center">see project</button>
+                        <button type="submit" class="center" required="required">see project</button>
                     </div>
                 </div>
             </div>
@@ -121,7 +126,7 @@
                         </ul>
                     </div>
                     <div class="center_button">
-                        <button type="button" class="center">see project</button>
+                        <button type="submit" class="center" required="required">see project</button>
                     </div>
                 </div>
             </div>
@@ -139,7 +144,7 @@
                         </ul>
                     </div>
                     <div class="center_button">
-                        <button type="button" class="center">see project</button>
+                        <button type="submit" class="center" required="required">see project</button>
                     </div>
                 </div>
             </div>
@@ -157,21 +162,22 @@
                         </ul>
                     </div>
                     <div class="center_button">
-                        <button type="button" class="center">see project</button>
+                        <button type="submit" class="center" required="required">see project</button>
                     </div>
                 </div>
             </div>
-     <div class="about_me">
-                <h4>about me <img class="image" src="/asset/images/illustration 1- about me-mobile.svg" alt="about me illustration"></h4>
+            </div>
+     <div class="about_me" id="about_section">
+                <h4>about me </h4>
                 <p> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
-                    don’t hesitate to contact me.</p>
-                    <button class="get_my">Get my resume</button>
+                     don’t hesitate to contact me.</p>
+                    <button type="submit" class="get_my" required="required">Get my resume</button>
             </div>
       <div class="about_cards">
 
 <div class="abt_card">
     <div class="abt_card__icon">
-        <img src="../asset/images/icon-languages.svg" alt="Languages icon">
+        <img src="./asset/images/icon-languages.svg" alt="Languages icon">
     </div>
 <div class="abt_card_title">
     <h2>Languages</h2>
@@ -188,7 +194,7 @@
 
 <div class="abt_card">
     <div class="abt_card__icon">
-        <img src="../asset/images/icon-frameworks.svg" alt="FrameWorks icon">
+        <img src="./asset/images/icon-frameworks.svg" alt="FrameWorks icon">
     </div>
 <div class="abt_card_title">
     <h2>FrameWorks</h2>
@@ -206,7 +212,7 @@
 
 <div class="abt_card">
     <div class="abt_card__icon">
-        <img src="../asset/images/icon-skills.svg" alt="skill icon">
+        <img src="./asset/images/icon-skills.svg" alt="skill icon">
     </div>
 <div class="abt_card_title">
     <h2>Skill</h2>
@@ -222,32 +228,39 @@
 </div>
 </div>
       </div>
+      <div class="my_section_paragraph" id="contact">
             <P class="interest">
                 I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
             </P>
             <!--input forms-->
             <div class="input">
-                <input type="text" required="required" placeholder="full name">
+                <form action="https://formspree.io/f/mvgorewv" method="post">
+                <input type="text" required="required" placeholder="full name" name="fname">
                 <br>
                 <br>
                 <br>
-                <input type="Email" required="required" placeholder="Email address">
+                <input type="Email" required="required" placeholder="Email address" name="email">
                 <br>
                 <br>
                 <br>
-                <textarea name="" id="" placeholder="Hey i'd like to connect to..."></textarea>
-                <button class="get_in" type="button">Get in touch</button>
+                <textarea name="" id="" placeholder="Hey i'd like to connect to..." name="msg"></textarea>
+                <button class="get_in" type="submit">Get in touch</button>
+                </form>
             </div>
+      </div>
             <div class="my_email">
-                <h3>blaisekhan204@gmail.com</h3>
+                <a href="mailto:blaisekhan204@gmail.com">blaisekhan204@gmail.com</a>
             </div>
+            <hr class="yooo">
             <div class="social_icon">
             <ul>
-                <li><a href="#"><img src="/asset/images/twitter (1).svg" alt="twitter platform"></a></li>
-                <li><a href="#"><img src="/asset/images/Linkedin icon.svg" alt="linkkedin icon"></a></li>
-                <li><a href="#"><img src="/asset/images/medium.svg" alt="medium platform"></a></li>
-                <li><a href="https://github.com/Osasblaisekhan"><img src="/asset/images/github.svg" alt="github platform"></a></li>
-                <li><a href="#"><img src="/asset/images/angellist.svg" alt="angellist platform"></a></li>
+                <li><a href="https://x.com/i/premium_sign_up"><img src="./asset/images/twitter (1).svg" alt="twitter social platform"></a></li>
+                <li><a href="www.linkedin.com/in/
+                    khan-blaise-13a0a4338
+                    "><img src="./asset/images/Linkedin icon.svg" alt="linkkedin icon"></a></li>
+                <li><a href="#"><img src="./asset/images/medium.svg" alt="medium platform"></a></li>
+                <li><a href="https://github.com/Osasblaisekhan"><img src="./asset/images/github.svg" alt="github"></a></li>
+                <li><a href="#"><img src="./asset/images/angellist.svg" alt="angellist platform"></a></li>
                 </ul>
             </div>
             <div class="line">
