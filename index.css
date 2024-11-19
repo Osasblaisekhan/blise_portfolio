@@ -37,11 +37,6 @@
     font-weight: 600;
     color: #3a4a42;
     text-decoration: none;
-
-  }
-  @keyframes slideleft{
-    from{transform: translateX(100px);}
-  }
     
   }
 
@@ -437,6 +432,7 @@
     align-items: center;
     justify-content: center;
   }
+}
 @media (min-width: 769px) and (max-width: 1024px) {
   .logo a {
     font-size: 25px;
@@ -469,10 +465,6 @@
     font-weight: 600;
     color: #3a4a42;
     text-decoration: none;
-
-  }
-  @keyframes slideleft{
-    from{transform: translateX(100px);}
   }
   .mobile_menu {
     display: flex;
