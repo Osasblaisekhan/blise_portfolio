@@ -15,30 +15,6 @@
   .desktop_menu {
     display: none;
   }
-  .desktop_menu.active{
-    display: flex;
-    position: absolute;
-    height: 70%;
-    width: 100%;
-    background-color: #fff;
-  }
-  .desktop_menu.active ul{
-    display: flex;
-    gap: 30px;
-    z-index: 1000;
-    flex-direction: column;
-    list-style: none;
-    margin-left: 40px;
-    animation-name: slideleft;
-    animation-duration: 4s;
-  }
-  .desktop_menu.active ul li a{
-    font-size: 32px;
-    font-weight: 600;
-    color: #3a4a42;
-    text-decoration: none;
-    
-  }
 
   .mobile_menu {
     display: flex;
@@ -52,18 +28,6 @@
     padding: 1.5px 10px;
     background-color: #000;
   }
-  .mobile_menu.active p:nth-child(1){
-    rotate: 45deg;
-    position: relative;
-    top: 12px;
-  }
-.mobile_menu.active p:nth-child(2){
-  opacity: 0;
-}
-.mobile_menu.active p:nth-child(3){
-  rotate: -45deg;
-
-}
 
   .hero {
     background: url(./asset/images/header-illsutration-mobile.svg);
