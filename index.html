@@ -1,170 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio Website</title>
-    <link rel="stylesheet" href="./index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donezo Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-    <!--header sectio markup-->
-    <header>
-        <div class="logo">
-            <a href="#">Khan</a>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div>
+        <div class="brand">
+          <span class="brand-icon"></span>
+          <h1>Donezo</h1>
         </div>
-        <div class="menu">
-            <nav>
-                <div class="mobile_menu" id="mobile_menu">
-                    <p></p>
-                <p></p>
-                <p></p>
-            </div>
-                <div class="desktop_menu" id="desktop_menu">
-                    <ul>
-                    <li><a href="#portfolio">portfolio</a></li>
-                    <li><a href="#about_section">about</a></li>
-                    <li><a href="#contact">contact</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-    </header>
-    <main>
-        <section class="hero" id="portfolio">
-            <h1><span class="first">hey there. i'm blise. </span><br><span class="second">i'm a software devloper</span> </h1>
-            <p class="hero_paragraph">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
-            <div class="social_icon">
-                 <ul>
-                    <li><a href="https://x.com/i/premium_sign_up"><img src="./asset/images/twitter (1).svg" alt="twitter social platform"></a></li>
-                    <li><a href="www.linkedin.com/in/
-                        khan-blaise-13a0a4338
-                        "><img src="./asset/images/Linkedin icon.svg" alt="linkkedin icon"></a></li>
-                    <li><a href="#"><img src="./asset/images/medium.svg" alt="medium platform"></a></li>
-                    <li><a href="https://github.com/Osasblaisekhan"><img src="./asset/images/github.svg" alt="github"></a></li>
-                    <li><a href="#"><img src="./asset/images/angellist.svg" alt="angellist platform"></a></li>
-                </ul>
-            </div>
-            <div class="class_action">
-                <img src="./asset/images/Action.png" alt="action">
-            </div>
-        </section>
 
-            <!--my section-->
-            <section class="section_2">
-            <div class="lay_out">
-                <h2>My Recent Works</h2>
-                <div class="hr">
-                    <p></p>
-                </div>
-                </div>
-                <div class="my_container_box">
-               
-        </div>
-                
-     <div class="about_me" id="about_section">
-                <h4>about me </h4>
-                <p> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
-                     don’t hesitate to contact me.</p>
-                    <button type="submit" class="get_my" required="required">Get my resume</button>
-            </div>
-      <div class="about_cards">
+        <nav>
+          <h2>Menu</h2>
+          <ul>
+            <li class="active"><span class="menu-icon"></span>Dashboard</li>
+            <li><span class="menu-icon"></span>Tasks <span class="pill">14</span></li>
+            <li><span class="menu-icon"></span>Calendar</li>
+            <li><span class="menu-icon"></span>Analytics</li>
+            <li><span class="menu-icon"></span>Team</li>
+          </ul>
 
-<div class="abt_card">
-    <div class="abt_card__icon">
-        <img src="./asset/images/icon-languages.svg" alt="Languages icon">
-    </div>
-<div class="abt_card_title">
-    <h2>Languages</h2>
-</div>
-<div class="abt_card_tech">
-    <ul>
-        <li>Javascript</li>
-        <li>Ruby</li>
-        <li>HTML</li>
-        <LI>CSS</LI>
-    </ul>
-</div>
-</div>
-
-<div class="abt_card">
-    <div class="abt_card__icon">
-        <img src="./asset/images/icon-frameworks.svg" alt="FrameWorks icon">
-    </div>
-<div class="abt_card_title">
-    <h2>FrameWorks</h2>
-</div>
-<div class="abt_card_tech">
-    <ul>
-        <li>React.js</li>
-        <li>Ruby on Rails</li>
-        <li>RSpec</li>
-        <li>Capybara</li>
-        <li>Selenium</li>
-    </ul>
-</div>
-</div>
-
-<div class="abt_card">
-    <div class="abt_card__icon">
-        <img src="./asset/images/icon-skills.svg" alt="skill icon">
-    </div>
-<div class="abt_card_title">
-    <h2>Skill</h2>
-</div>
-<div class="abt_card_tech">
-    <ul>
-        <li>Database Management</li>
-        <li>Version control</li>
-        <li>CLI</li>
-        <li>Web Development</li>
-        <li>API Design</li>
-    </ul>
-</div>
-</div>
+          <h2>General</h2>
+          <ul>
+            <li><span class="menu-icon"></span>Settings</li>
+            <li><span class="menu-icon"></span>Help</li>
+            <li><span class="menu-icon"></span>Logout</li>
+          </ul>
+        </nav>
       </div>
-      <div class="my_section_paragraph" id="contact">
-            <P class="interest">
-                I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
-            </P>
-            <!--input forms-->
-            <div class="form_fields">
-                <form action="https://formspree.io/f/mvgorewv" method="post">
-                <input type="text" required="required" placeholder="full name" name="fname">
-                <br>
-                <br>
-                <br>
-                <input type="Email" required="required" placeholder="Email address" name="email">
-                <br>
-                <br>
-                <br>
-                <textarea name="sms" id="" class="chart_area" placeholder="Hey i'd like to connect too..."></textarea>
-                <button class="get_in" type="submit">Get in touch</button>
-              
-                </form>
+
+      <article class="download-card">
+        <h3>Download our Mobile App</h3>
+        <p>Get tasks updates any time from your phone.</p>
+        <button type="button">Download</button>
+      </article>
+    </aside>
+
+    <main class="dashboard">
+      <header class="top-bar">
+        <div class="search-box">Search task</div>
+        <div class="top-actions">
+          <span class="icon-btn"></span>
+          <span class="icon-btn"></span>
+          <div class="profile">
+            <div class="avatar"></div>
+            <div>
+              <strong>Totok Michael</strong>
+              <small>tmichael20@mail.com</small>
             </div>
-      </div>
-            <div class="my_email">
-                <a href="mailto:blaisekhan204@gmail.com">blaisekhan204@gmail.com</a>
-            </div>
-            <hr class="yooo">
-            <div class="social_icon">
-            <ul>
-                <li><a href="https://x.com/i/premium_sign_up"><img src="./asset/images/twitter (1).svg" alt="twitter social platform"></a></li>
-                <li><a href="www.linkedin.com/in/
-                    khan-blaise-13a0a4338
-                    "><img src="./asset/images/Linkedin icon.svg" alt="linkkedin icon"></a></li>
-                <li><a href="#"><img src="./asset/images/medium.svg" alt="medium platform"></a></li>
-                <li><a href="https://github.com/Osasblaisekhan"><img src="./asset/images/github.svg" alt="github"></a></li>
-                <li><a href="#"><img src="./asset/images/angellist.svg" alt="angellist platform"></a></li>
-                </ul>
-            </div>
-            <div class="line">
-                <p></p>
-            </div>
-        </section>
-       
+          </div>
+        </div>
+      </header>
+
+      <section class="page-title-row">
+        <div>
+          <h2>Dashboard</h2>
+          <p>Plan, prioritize, and accomplish your tasks with ease.</p>
+        </div>
+        <div class="cta-group">
+          <button type="button" class="btn-primary">+ Add Project</button>
+          <button type="button" class="btn-secondary">Import Data</button>
+        </div>
+      </section>
+
+      <section class="stats-grid">
+        <article class="stat-card featured">
+          <p>Total Projects</p>
+          <h3>24</h3>
+          <small>Increased from last month</small>
+        </article>
+        <article class="stat-card">
+          <p>Ended Projects</p>
+          <h3>10</h3>
+          <small>Increased from last month</small>
+        </article>
+        <article class="stat-card">
+          <p>Running Projects</p>
+          <h3>12</h3>
+          <small>Increased from last month</small>
+        </article>
+        <article class="stat-card">
+          <p>Pending Project</p>
+          <h3>2</h3>
+          <small>On discuss</small>
+        </article>
+      </section>
+
+      <section class="content-grid">
+        <article class="panel analytics">
+          <h3>Project Analytics</h3>
+          <div class="bars">
+            <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+          </div>
+        </article>
+
+        <article class="panel reminders">
+          <h3>Reminders</h3>
+          <h4>Meeting with Arc Company</h4>
+          <p>Time: 02:00 pm - 04:00 pm</p>
+          <button type="button">▶ Start Meeting</button>
+        </article>
+
+        <article class="panel project-list">
+          <div class="list-title">
+            <h3>Project</h3>
+            <span>+ New</span>
+          </div>
+          <ul>
+            <li>Develop API Endpoints</li>
+            <li>Onboarding Flow</li>
+            <li>Build Dashboard</li>
+            <li>Optimize Page Load</li>
+            <li>Cross-Browser Testing</li>
+          </ul>
+        </article>
+
+        <article class="panel collaboration">
+          <div class="list-title">
+            <h3>Team Collaboration</h3>
+            <span>+ Add Member</span>
+          </div>
+          <ul>
+            <li>Alexandra Doff <em>Complete</em></li>
+            <li>Edwin Adenke <em>In Progress</em></li>
+            <li>Isaac Oluwatemilori <em>Pending</em></li>
+            <li>David Oshoil <em>In Progress</em></li>
+          </ul>
+        </article>
+
+        <article class="panel progress">
+          <h3>Project Progress</h3>
+          <div class="progress-ring"><strong>41%</strong></div>
+          <p>Completed • In Progress • Pending</p>
+        </article>
+
+        <article class="panel timer">
+          <h3>Time Tracker</h3>
+          <div class="time">01:24:08</div>
+          <div class="controls"><i class="control-dot"></i><i class="control-dot"></i></div>
+        </article>
+      </section>
     </main>
-    <script src="script.js"></script>
-    
+  </div>
 </body>
 </html>
